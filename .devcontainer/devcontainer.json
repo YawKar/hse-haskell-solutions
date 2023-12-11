@@ -8,6 +8,10 @@
 		"ghcr.io/devcontainers-contrib/features/haskell:2": {}
 	},
 
+	"runArgs": [
+		"--network=host"
+	],
+
 	// Configure tool-specific properties.
 	"customizations": {
 		"vscode": {
